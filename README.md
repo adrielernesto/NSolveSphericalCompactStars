@@ -125,14 +125,14 @@ En lugar de $H_0$ en el interior se utiliza la función
 
 $$y(r) = r\dfrac{H'(r)}{H(r)}$$
 
-a partir de cuyo valor en la superficie de la estrella $yR$ y de la compacidad se obtiene la relación entre las constantes y el número de Love:
+a partir de cuyo valor en la superficie de la estrella $y_R$ y de la compacidad se obtiene la relación entre las constantes y el número de Love:
 
 
-$$ k_2 = \frac{8 (1-2 c)^2 c^5 (2 c (\text{yR}-1)-\text{yR}+2)}{5 \left(2 c (c (2 c (c (2 c (\text{yR}+1)+3 \text{yR}-2)-11 \text{yR}+13)+3 (5 \text{yR}-8))-3 \text{yR}+6)-3 (1-2 c)^2 (2 c (\text{yR}-1)-\text{yR}+2) \log \left(\frac{1}{1-2 c}\right)\right)}$$
+$$ k_2 = \frac{8 (1-2 c)^2 c^5 (2 c (\text{y_R}-1)-\text{y_R}+2)}{5 \left(2 c (c (2 c (c (2 c (\text{y_R}+1)+3 \text{y_R}-2)-11 \text{y_R}+13)+3 (5 \text{y_R}-8))-3 \text{y_R}+6)-3 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2) \log \left(\frac{1}{1-2 c}\right)\right)}$$
 
-$$\Lambda = \frac{16 (1-2 c)^2 (2 c (\text{yR}-1)-\text{yR}+2)}{30 c (c (2 c (c (2 c (\text{yR}+1)+3 \text{yR}-2)-11 \text{yR}+13)+3 (5 \text{yR}-8))-3 \text{yR}+6)-45 (1-2 c)^2 (2 c (\text{yR}-1)-\text{yR}+2) \log \left(\frac{1}{1-2 c}\right)}$$
+$$\Lambda = \frac{16 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2)}{30 c (c (2 c (c (2 c (\text{y_R}+1)+3 \text{y_R}-2)-11 \text{y_R}+13)+3 (5 \text{y_R}-8))-3 \text{y_R}+6)-45 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2) \log \left(\frac{1}{1-2 c}\right)}$$
 
-Para hallar $$y_R$$ resolvemos la ecuación de $$ y(r) = r\dfrac{H_0'(r)}{H_0(r)}$$ en el interior de la estrellas, que toma la forma:
+Para hallar $$y_R$$ resolvemos la ecuación de $$y(r) = r\dfrac{H_0'(r)}{H_0(r)}$$ en el interior de la estrellas, que toma la forma:
 
 $$r y'(r) + y^2(r) + F(r) y(r) + r^2 Q(r) = 0,$$
 
@@ -145,7 +145,8 @@ $$Q(r) = \frac{4 \pi  G}{1-\frac{2 G M(r)}{r}} \left(\left((P(r)+\epsilon (r)) \
 
 y como condición inical en el centro se usa $$y(0) = 2$$ que se obtiene de expandir en serie la ecuación diferencial de $$y$$ en el centro.
 
-**Importante:**. Si se utiliza materia de quarks u otra ecuación de estado en la que la densidad de energía es distinta de cero en la superficie, o sea $$E_{surf} = E(P = 0) \ne 0 $$ entonces $$y_R = y(R) - \dfrac{4 \pi R^3}{M} E_{surf}$$ donde $$R$$ es el radio de la estrella y $$M$$ es su masa.
+Entonces $$y_R = y(R) - \dfrac{4 \pi R^3}{M} E_{surf}$$ donde $$R$$ es el radio de la estrella y $$M$$ es su masa.
+**Importante:** La diferencia $$y_R - y(R)$$ ocurre por la discontinuidad de la densidad de enería en la superficie de estrellas cuya ecuación de estado tiene una densidad de energía no nula cuando la presión se hace cero, o sea, cuando existe una densidad de energía $$E_{surf} = E(P = 0) \ne 0 $$ en la superficie de la estrella. Esto suele ocurrir si se utiliza materia extraña de quarks.
 
 <h2>Moment of inercia</h2>
 
