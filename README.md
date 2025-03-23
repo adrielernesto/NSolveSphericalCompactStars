@@ -1,4 +1,4 @@
-<h1>Obserbavles of spherical cpompact stars stars</h1>
+<h1>Observables of spherical compact stars</h1>
 
 
 _Adriel E. Rodríguez Concepción_
@@ -145,6 +145,7 @@ $$Q(r) = \frac{4 \pi  G}{1-\frac{2 G M(r)}{r}} \left(\left((P(r)+\epsilon (r)) \
 
 y como condición inical en el centro se usa $$y(0) = 2$$ que se obtiene de expandir en serie la ecuación diferencial de $$y$$ en el centro.
 
-**Importante: ¡$$y_R$$ no siempre equivale a $$y(R)$$!**. Si se utiliza materia de quarks u otra ecuación de estado en la que la densidad de energía es distinta de cero en la superficie, o sea $$E_{surf} = E(P = 0) \ne 0 $$ entonces $$y_R = y(R) - \dfrac{4 \pi R^3}{M} E_{surf}$$ donde $$R$$ es el radio de la estrella y $$M$$ es su masa.
+**Importante:**. Si se utiliza materia de quarks u otra ecuación de estado en la que la densidad de energía es distinta de cero en la superficie, o sea $$E_{surf} = E(P = 0) \ne 0 $$ entonces $$y_R = y(R) - \dfrac{4 \pi R^3}{M} E_{surf}$$ donde $$R$$ es el radio de la estrella y $$M$$ es su masa.
 
 <h2>Moment of inercia</h2>
+
