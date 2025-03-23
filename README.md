@@ -125,12 +125,12 @@ En lugar de $H_0$ en el interior se utiliza la función
 
 $$y(r) = r\dfrac{H'(r)}{H(r)}$$
 
-a partir de cuyo valor en la superficie de la estrella $y_R$ y de la compacidad se obtiene la relación entre las constantes y el número de Love:
+a partir de cuyo valor en la superficie de la estrella $$y_R$$ y de la compacidad se obtiene la relación entre las constantes y el número de Love:
 
 
-$$ k_2 = \frac{8 (1-2 c)^2 c^5 (2 c (\text{y_R}-1)-\text{y_R}+2)}{5 \left(2 c (c (2 c (c (2 c (\text{y_R}+1)+3 \text{y_R}-2)-11 \text{y_R}+13)+3 (5 \text{y_R}-8))-3 \text{y_R}+6)-3 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2) \log \left(\frac{1}{1-2 c}\right)\right)}$$
+$$k_2 = \frac{8 (1-2 c)^2 c^5 (2 c (y_R-1)-y_R+2)}{5 \left(2 c (c (2 c (c (2 c (y_R+1)+3 y_R-2)-11 y_R+13)+3 (5 y_R-8))-3 y_R+6)-3 (1-2 c)^2 (2 c (y_R-1)-y_R+2) \log \left(\frac{1}{1-2 c}\right)\right)}$$
 
-$$\Lambda = \frac{16 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2)}{30 c (c (2 c (c (2 c (\text{y_R}+1)+3 \text{y_R}-2)-11 \text{y_R}+13)+3 (5 \text{y_R}-8))-3 \text{y_R}+6)-45 (1-2 c)^2 (2 c (\text{y_R}-1)-\text{y_R}+2) \log \left(\frac{1}{1-2 c}\right)}$$
+$$\Lambda = \frac{16 (1-2 c)^2 (2 c (y_R-1)-y_R+2)}{30 c (c (2 c (c (2 c (y_R+1)+3 y_R-2)-11 y_R+13)+3 (5 y_R-8))-3 y_R+6)-45 (1-2 c)^2 (2 c (y_R-1)-y_R+2) \log \left(\frac{1}{1-2 c}\right)}$$
 
 Para hallar $$y_R$$ resolvemos la ecuación de $$y(r) = r\dfrac{H_0'(r)}{H_0(r)}$$ en el interior de la estrellas, que toma la forma:
 
