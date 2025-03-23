@@ -173,13 +173,15 @@ Para recuperar el caso **sin rotación** tomamos primero el límite $$\Omega>>\o
 
 $$J'(r) = \dfrac{8}{3} \dfrac{(E+P)e^{-\dfrac{\nu}{2}} r^4}{\sqrt{1- 2\dfrac{M(r)}{r}}}$$ 
 
-con $$J(0) = 0$$. Esta edo se debe acoplar a las ecuaciones TOV. Para librarnos de $$\nu$$ en la edo podemos usar la primera integral de la ecuación de equilibrio hidrostático de las TOV:
+con $$J(0) = 0$$ e $$I = J(R)$$. Esta edo se debe acoplar a las ecuaciones TOV. Para librarnos de $$\nu$$ en la edo podemos usar la primera integral de la ecuación de equilibrio hidrostático de las TOV:
 
 $$H(r)  + \dfrac{1}{2}\nu(r) = conte$$
 
-donde $$H(P(r)) = \int_0^{P(r)} \dfrac{p}{E(p) + p}$$ es la log-entalpía específica, también llamada por ahí "heat function" y que se saca de la ecuación de estado. La constante se puede evaluar en la superficie donde $$H = 0$$ y $$e^\nu(R) =  1 - 2 \dfrac{M(R)}{R}$$.
+donde $$H(P(r)) = \int_0^{P(r)} \dfrac{dp}{E(p) + p}$$ es la log-entalpía específica, también llamada por ahí "heat function" y que se saca de la ecuación de estado. La constante se puede evaluar en la superficie donde $$H = 0$$ y $$e^\nu(R) =  1 - 2 \dfrac{M(R)}{R}$$.
 
-Así las cosas
+Así las cosas, podemos calcular el momento de inercia como $$I = I(R) \left(1 - 2 \dfrac{M(R)}{R}\right)^{-\dfrac{1}{2}}$$ donde 
+
+$$\dfrac{dI}{dr} = \dfrac{}{}$$
 
 
 
