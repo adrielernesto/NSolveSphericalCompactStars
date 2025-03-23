@@ -163,13 +163,23 @@ El momento de inercia se define como
 
 $$I(\Omega) = \dfrac{1}{\Omega} \int_V T_\varphi^t \sqrt{- g} dr d\theta d\varphi$$
 
-donde $$ T_\varphi^t = (E+P)u^t u_\varphi$$, $$g$$ es el determinante de la métrica y $$u^\mu$$ es la cuadrivelocidad del fluido.
+donde $$T_\varphi^t = (E+P)u^t u_\varphi$$, $$g$$ es el determinante de la métrica y $$u^\mu$$ es la cuadrivelocidad del fluido.
 
 Para una fluido con rotación uniforme se tiene que $$u_\varphi = \Omega u_t$$ y como $$u_\mu u^\mu = - 1$$ entonces $$u^t = [- (g_{tt} + 2 g_{t\varphi} \Omega + g_{\varphi\varphi} \Omega^2)]^{-\frac{1}{2}}$$. En nuestro caso entonces:
 
 $$T_\varphi^t = - \dfrac{  (E+P)(g_{t\varphi} + \Omega g_{\varphi\varphi})} { g_{tt} + 2 g_{t\varphi} \Omega + g_{\varphi\varphi} \Omega^2 } =  \dfrac{  (E+P)(\Omega - \omega)} { - e^\nu + e^\mu(\Omega - \omega)^2 } $$
 
+Para recuperar el caso **sin rotación** tomamos primero el límite $$\Omega>>\omega$$ y luego el límite $$\Omega\to 0$$ obteniendo la ecuación diferencial:
 
+$$J'(r) = \dfrac{8}{3} \dfrac{(E+P)e^{-\dfrac{\nu}{2}} r^4}{\sqrt{1- 2\dfrac{M(r)}{r}}}$$ 
+
+con $$J(0) = 0$$. Esta edo se debe acoplar a las ecuaciones TOV. Para librarnos de $$\nu$$ en la edo podemos usar la primera integral de la ecuación de equilibrio hidrostático de las TOV:
+
+$$H(r)  + \dfrac{1}{2}\nu(r) = conte$$
+
+donde $$H(P(r)) = \int_0^{P(r)} \dfrac{p}{E(p) + p}$$ es la log-entalpía específica, también llamada por ahí "heat function" y que se saca de la ecuación de estado. La constante se puede evaluar en la superficie donde $$H = 0$$ y $$e^\nu(R) =  1 - 2 \dfrac{M(R)}{R}$$.
+
+Así las cosas
 
 
 
