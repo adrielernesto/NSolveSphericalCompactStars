@@ -91,7 +91,7 @@ Para el vacío obtenemos:
 
 $$h''(r)+h'(r) \left(\frac{2}{r}-\lambda '(r)\right)-h(r) \left(\frac{6 e^{\lambda (r)}}{r^2}+\lambda '(r)^2\right)= 0$$
 
-siendo $h = {H_0}^{vacío}$.
+siendo $$h = {H_0}^{vacío}$$.
 
 Su solución es 
 $$h(r) = c_1 {Q^2}_2\left(\frac{r}{M}-1\right) + c_2 {P^2}_2\left(\frac{r}{M}-1\right),$$
@@ -102,7 +102,7 @@ $$ {Q^2}_2(x) = \frac{-3 x^3+\frac{1}{2} \left(3 x^4-6 x^2+3\right) \log \left(\
 
 $$ {P^2}_2(x) = 3 \dfrac{ (1 - x)^2 (1 + x)}{-1 + x}$$
 
-son las funciones asociadas de Legendre con $l=m=2$.
+son las funciones asociadas de Legendre con $$l=m=2$$.
 
 De la expansión se obtiene el potencial gravitatorio:
 
@@ -119,7 +119,7 @@ $$\lambda =  \dfrac{8 c1 G^5 M^5}{45 c2}$$
 
 $$k_2 = \dfrac{4 c1 G^5 M^5}{15 c2 R^5} =  \dfrac{4 c1 c^5}{15 c2 } $$
 
-donde $c = \dfrac{M}{R}$ es la compacidad. La relación $c_1/c_2$ y la compacidad se obtienen de resolver las ecuaciones de estructura y la de $H_0$ acopladas dentro de la estrella. 
+donde $$c = \dfrac{M}{R}$$ es la compacidad. La relación $$c_1/c_2$$ y la compacidad se obtienen de resolver las ecuaciones de estructura y la de $H_0$ acopladas dentro de la estrella. 
 
 En lugar de $H_0$ en el interior se utiliza la función
 
