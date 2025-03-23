@@ -146,7 +146,42 @@ $$Q(r) = \frac{4 \pi  G}{1-\frac{2 G M(r)}{r}} \left(\left((P(r)+\epsilon (r)) \
 y como condición inical en el centro se usa $$y(0) = 2$$ que se obtiene de expandir en serie la ecuación diferencial de $$y$$ en el centro.
 
 Entonces $$y_R = y(R) - \dfrac{4 \pi R^3}{M} E_{surf}$$ donde $$R$$ es el radio de la estrella y $$M$$ es su masa.
+
 **Importante:** La diferencia $$y_R - y(R)$$ ocurre por la discontinuidad de la densidad de enería en la superficie de estrellas cuya ecuación de estado tiene una densidad de energía no nula cuando la presión se hace cero, o sea, cuando existe una densidad de energía $$E_{surf} = E(P = 0) \ne 0 $$ en la superficie de la estrella. Esto suele ocurrir si se utiliza materia extraña de quarks.
 
-<h2>Moment of inercia</h2>
+<h2>Moment of inertia</h2>
+
+El momento de inercia solo puede ser definido en relatividad general para un cuerpo que está rotando. Para una estático se deberá tomar entonces el límite $$\Omega\to 0$$. En lo que sigue supondremos que la estrella tiene velocidad angular uniforme $$\Omega$$.
+
+Para el espacio-tiempo axialmente simétrico asociado a una estrella en rotación usaremos la métrica:
+
+$$ds^2 = - e^\nu dt^2 + e^\lambda dr^2 + e^\Psi d\theta^2 + e^\mu(d\varphi - \omega dt)^2$$
+
+donde las funciones métricas $$\nu,\lambda, \mu, \Psi$$ dependen de $$r$$, $$\theta$$ e, implícitamente, de la velocidad angular $$\Omega$$. La magnitud $$\omega(r,\theta)$$ es la velocidad angular que obtiene un observador que cae libremente desde el infinito hasta el punto $$(r,\theta)$$, es la velocidad angular del sistema de referencia inercial local.
+
+El momento de inercia se define como 
+
+$$I(\Omega) = \dfrac{1}{\Omega} \int_V T_\varphi^t \sqrt{- g} dr d\theta d\varphi$$
+
+donde $$ T_\varphi^t = (E+P)u^t u_\varphi$$, $$g$$ es el determinante de la métrica y $$u^\mu$$ es la cuadrivelocidad del fluido.
+
+Para una fluido con rotación uniforme se tiene que $$u_\varphi = \Omega u_t$$ y como $$u_\mu u^\mu = - 1$$ entonces $$u^t = [- (g_{tt} + 2 g_{t\varphi} \Omega + g_{\varphi\varphi} \Omega^2)]^{-\frac{1}{2}}$$. En nuestro caso entonces:
+
+$$T_\varphi^t = - \dfrac{  (E+P)(g_{t\varphi} + \Omega g_{\varphi\varphi})} { g_{tt} + 2 g_{t\varphi} \Omega + g_{\varphi\varphi} \Omega^2 } =  \dfrac{  (E+P)(\Omega - \omega)} { - e^\nu + e^\mu(\Omega - \omega)^2 } $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
