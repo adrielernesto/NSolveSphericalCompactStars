@@ -179,9 +179,11 @@ $$H(r)  + \dfrac{1}{2}\nu(r) = conte$$
 
 donde $$H(P(r)) = \int_0^{P(r)} \dfrac{dp}{E(p) + p}$$ es la log-entalpía específica, también llamada por ahí "heat function" y que se saca de la ecuación de estado. La constante se puede evaluar en la superficie donde $$H = 0$$ y $$e^\nu(R) =  1 - 2 \dfrac{M(R)}{R}$$.
 
-Así las cosas, podemos calcular el momento de inercia como $$I = I(R) \left(1 - 2 \dfrac{M(R)}{R}\right)^{-\dfrac{1}{2}}$$ donde 
+Así las cosas, podemos calcular el momento de inercia como $$I = \dfrac{J(R)}{\sqrt{1 - 2 \dfrac{M(R)}{R}}}$$ donde 
 
-$$\dfrac{dI}{dr} = \dfrac{}{}$$
+$$\dfrac{dJ}{dr} = \dfrac{8}{3}\dfrac{(E+P)r^4 e^H}{\sqrt{1 - 2 \dfrac{M(r)}{r}}}$$
+
+con $$J(0) =  0$$.
 
 
 
